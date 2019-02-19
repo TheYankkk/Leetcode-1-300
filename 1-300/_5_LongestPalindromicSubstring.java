@@ -34,7 +34,7 @@ public class _5_LongestPalindromicSubstring {
      * @return
      */
 
-    // time : O(n^2) space : O(n^2);
+    // time : O(n^3) space : O(n^2);
     public String longestPalindrome(String s) {
         if (s == null || s.length() == 0) return s;
         String res = "";
